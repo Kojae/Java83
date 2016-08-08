@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Recipe Master</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+
+<!-- Template css -->
+<link rel="stylesheet"
+	href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="node_modules/jquery-ui-1.12.0/jquery-ui.min.css">
+
+<!-- 사용자 정의 css -->
+
+<link rel="stylesheet" href="css/chefCard.css">
+<link rel="stylesheet" href="css/rankTabs.css"> 
+
+</head>
+
+<body style="overflow-x:hidden; overflow-y:auto;">
+	
+<!-------------------------------- Rank List --------------------------------->
+	<section>           
+	
+		<div class="tabs-left">
+			<h3>랭킹</h3>			
+			
+			<ul class="nav nav-tabs">
+			
+			<!---------------- Chef Rank --------------------->
+				<li class="active"><a href="#a" data-toggle="tab"> 
+						<img class="rcp-rank-icon" src="img/cooker.png">
+				</a></li>
+				<li><a href="#b" data-toggle="tab">
+						<img class="rcp-rank-icon" src="img/recipe2.png">
+				</a></li>
+			</ul>
+ 
+			<div class="tab-content">
+				<div class="row tab-pane active" id="a">				
+
+					<!-- 쉐프카드 -->
+					<!-- <div class="col-md-4"> -->
+					<figure class="snip1344">
+						<img src="img/food01_1.png" alt="profile-sample1"
+							class="background" />
+						<img src="img/ic_launcher.png" alt="profile-sample1"
+							class="profile" />
+						
+						<img src="img/medal1.png" alt="profile-sample1" class="medal" />
+						<figcaption>
+							<h3>1번쉐프</h3>						
+							<div>레시피 - 20 개</div>
+              <div>구독자수 - 20명</div>
+						</figcaption>
+					</figure>
+          <!-- </div> -->
+          <!-- 쉐프카드 끝 -->
+                    
+          
+					<!-- 쉐프카드 -->
+					<!-- <div class="col-md-4"> -->
+					<figure class="snip1344 hidden-xs">
+						<img src="img/food02_1.png" alt="profile-sample1"
+							class="background" />
+						<img src="img/ic_launcher.png" alt="profile-sample1"
+							class="profile" />
+						
+						<img src="img/medal2.png" alt="profile-sample1" class="medal" />
+						<figcaption>
+              <h3>2번쉐프</h3>           
+              <div>레시피 - 20 개</div>
+              <div>구독자수 - 20명</div>
+            </figcaption>
+					</figure>
+					<!-- </div> -->
+					<!-- 쉐프카드 끝 -->
+
+					<!-- 쉐프카드 -->
+					<!-- <div class="col-md-4"> -->
+					<figure class="snip1344 hidden-xs hidden-sm">
+						<img src="img/food03_1.png" alt="profile-sample1"
+							class="background" />
+						<img src="img/ic_launcher.png" alt="profile-sample1"
+							class="profile" />
+						
+						<img src="img/medal3.png" alt="profile-sample1" class="medal" />
+						<figcaption>
+              <h3>3번쉐프</h3>           
+              <div>레시피 - 20 개</div>
+              <div>구독자수 - 20명</div>
+            </figcaption>
+					</figure>
+          <!-- </div> -->
+          <!-- 쉐프카드 끝 -->
+				</div>
+			 <!---------------- Recipe Rank--------------------->
+				<div class="tab-pane" id="b">
+							
+					<!-- 쉐프카드 -->
+          <!-- <div class="col-md-4"> -->
+          <figure class="snip1344 hidden-xs hidden-sm">
+            <img src="img/food03_1.png" alt="profile-sample1"
+              class="background" />
+            <img src="img/ic_launcher.png" alt="profile-sample1"
+              class="profile" />
+            
+            <img src="img/medal3.png" alt="profile-sample1" class="medal" />
+            <figcaption>
+              <h3>3번쉐프</h3>           
+              <div>레시피 - 20 개</div>
+              <div>구독자수 - 20명</div>
+            </figcaption>
+          </figure>
+          <!-- </div> -->
+          <!-- 쉐프카드 끝 -->
+          			
+			</div><!-- /tab-content -->
+			</div>
+		</div><!-- /tabbable -->		
+	</section>
+
+<!------------------------- Rank List ------------------------------>
+
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/jquery-ui-1.12.0/jquery-ui.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>	
+	
+	<!--  사용자 js -->
+	<script src="js/chefCard.js"></script>
+	<script src="js/rankTabs.js"></script>
+
+	
+</body>
+</html>

@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/common.css" rel="stylesheet">
+<link href="css/mainlist.css" rel="stylesheet">
+<style type="text/css">
+
+
+.main-top{
+  background-image: url('images/403.png');
+  width:1700px;
+  height:800px;
+  background-repeat: no-repeat;
+} 
+</style>
+
+</head>
+<body>
+<form>
+    
+    <!--  Main 전체 List영역 -->
+    <div class="rcp-list">     
+    
+      <!--  List 1 (영역) -->
+      <div class="col-md-offset-1 col-md-10">
+           <h3> 오늘의 인기 레시피</h3>
+        <div class="row">
+           <!-- 요소 1  -->
+             <div class=" col-md-3 rcp-list-margin rcp-list-margin">
+                <div class="thumbnail row relative" >
+                   <!-- 배경 이미지 (음식)  -->
+                   <div class="rcp-profile-position">
+                        <img src="images/profile.jpg" class="img-circle rcp-profile" >
+                   </div> 
+                        <img src="images/5.jpg" class="image1" class="rcp-relative">
+                      <!-- 프로필--> 
+                      <!--  프로필은 80px * 80px.  -->
+                      
+                         <!--  레시피 정보 Caption Start -->
+                        
+                  
+                      
+                       
+                         <div class="rcp-caption">
+                            <!--  첫번째 줄 (아이디, 평점) -->
+                            <h4 class="pull-right rcp-Grade" >평점</h4>
+                                 <h5 class="pluu-left rcp-relative rcp-profileName"> <span class="glyphicon glyphicon-star"></span>DDu BBo KKi </h5> 
+                                 <!-- 두번째 줄 (레시피명, 점수)  -->
+                                  <div class="rcp-relative rcp-bottom" >
+                                      <h4 class="pull-right rcp-recipeGrade">4.7점</h4>   
+                                         <h4 class="pull-left rcp-left_position">
+                                           <span><a href="#">이쁘니 떠뽀끼 </a></span> 
+                                         </h4>  
+                                     
+                                  </div>
+                          </div> 
+                    <!--  레시피 정보 끝 -->
+                          
+                            
+                            
+                  <!--  슬라이드 start -->       
+               <div id="myCarousel" class="carousel slide rcp-relative">
+                 <!--  왼쪽 버튼 시작  -->
+                     <a  href="#myCarousel" role="button" data-slide="prev" class="rcp-left-slideButton">
+                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="false" ></span>
+
+                     </a>
+                     <!--  왼쪽 버튼 끝  -->
+                     
+                     <!--  오른쪽 버튼 시작  -->       
+                      <a href="#myCarousel" role="button" data-slide="next"  class="rcp-right-slideButton">
+                         <span class="glyphicon glyphicon-chevron-right" aria-hidden="false" ></span>
+
+                      </a>
+                    <!--  오른쪽 버튼 끝   -->  
+                     
+                    <!--  레시피 내용 시작  -->
+                 <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                          <div class="rcp-comment">
+                             <p>어린시절의 추억을 먹다 !!</p>
+                             <p>즉석에서 뚝딱 먹을 수 있는</p>
+                             <p>간편한 추억의 국물 떡볶이 !!</p>
+                          </div>
+                      </div>
+                     
+                     <div class="item">
+                         <div class="rcp-comment">
+                         <!--  image 크기를 잘 몰라서 일단 %로 안하고 85px로 고정해놓 -->
+                            <img src="images/view.png" class="img-rounded rcp-images">
+                             <img src="images/view.png"  class="img-rounded rcp-images">
+                         </div>
+                      </div> 
+                     
+                       <div class="item">
+                         <div class="rcp-comment" >
+                            <div class="col-sm-6">
+                              <p class="rcp-left-condiment">떡볶이</p>
+                              <p class="rcp-left-condiment">떡볶이</p>
+                              <p class="rcp-left-condiment">떡볶이</p>
+                            </div>
+                           
+                            <div class="col-sm-6">
+                              <p class="rcp-right-condiment">간장</p>
+                              <p class="rcp-right-condiment">간장</p>
+                              <p class="rcp-right-condiment">간장</p>
+                            </div>
+                            
+                         </div>
+                     </div> 
+                   </div>
+                   <!--  레시피 내용 끝  --> 
+                
+                </div>
+                           
+                    
+                <!-- 하단 버튼들 시작 (요리시간, 좋아요, 스크랩) -->
+                <div class="rcp-container">
+                    <div class="row">
+                              <div class="glyphicon glyphicon-time rcp-cookTime col-xs-4" align="center"> <b>10분</b></div> 
+                               <div class="glyphicon glyphicon-heart-empty rcp-cookTime col-xs-4" align="center"> <a href="#"><b>좋아요</b></a></div>
+                               <div class="glyphicon glyphicon-pushpin rcp-cookTime col-xs-4" align="center"> <a href="#"><b>스크랩</b></a></div>
+
+                       
+                    </div>
+                  </div>     
+                  <!--  버튼 끝  --> 
+                  </div>
+                 <!--  col-md-3 row div태그  -->
+                </div>
+                 <!-- col-md-3 div태그 끝  --> 
+                 
+                 
+                 
+              
+            <!-- 요소 2  -->
+             <div class=" col-md-3 rcp-list-margin rcp-list-margin">
+                <div class="thumbnail row relative" >
+                   <!-- 배경 이미지 (음식)  -->
+                   <div class="rcp-profile-position">
+                        <img src="images/profile1.jpg" class="img-circle rcp-profile" >
+                   </div> 
+                        <img src="images/2.jpg" class="image1" class="rcp-relative">
+                      <!-- 프로필--> 
+                      <!--  프로필은 80px * 80px.  -->
+                      
+                         <!--  레시피 정보 Caption Start -->
+                        
+                  
+                      
+                       
+                         <div class="rcp-caption">
+                            <!--  첫번째 줄 (아이디, 평점) -->
+                            <h4 class="pull-right rcp-Grade" >평점</h4>
+                                 <h5 class="pluu-left rcp-relative rcp-profileName"> <span class="glyphicon glyphicon-star"></span>알럽스텤 </h5> 
+                                 <!-- 두번째 줄 (레시피명, 점수)  -->
+                                  <div class="rcp-relative rcp-bottom" >
+                                      <h4 class="pull-right rcp-recipeGrade">4.7점</h4>   
+                                         <h4 class="pull-left rcp-left_position">
+                                           <span><a href="#">쓱싹쓱싹 스테이크</a></span> 
+                                         </h4>  
+                                     
+                                  </div>
+                          </div> 
+                    <!--  레시피 정보 끝 -->
+                          
+                            
+                            
+                  <!--  슬라이드 start -->       
+               <div id="myCarousel2" class="carousel slide rcp-relative">
+                 <!--  왼쪽 버튼 시작  -->
+                     <a  href="#myCarousel2" role="button" data-slide="prev" class="rcp-left-slideButton">
+                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="false" ></span>
+
+                     </a>
+                     <!--  왼쪽 버튼 끝  -->
+                     
+                     <!--  오른쪽 버튼 시작  -->       
+                      <a href="#myCarousel2" role="button" data-slide="next"  class="rcp-right-slideButton">
+                         <span class="glyphicon glyphicon-chevron-right" aria-hidden="false" ></span>
+
+                      </a>
+                    <!--  오른쪽 버튼 끝   -->  
+                     
+                    <!--  레시피 내용 시작  -->
+                 <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                          <div class="rcp-comment">
+                             <p>스테이크는 쓱싹쓲싺 썰어서 먹는것이다.</p>
+                             <p>이 사실을 모르고 있었는가 닝겐 ? </p>
+                             <p>크킄.. 한심하군..</p>
+                          </div>
+                      </div>
+                     
+                     <div class="item">
+                         <div class="rcp-comment">
+                             <p>어린시절의 추억을 먹다 !!</p>
+                             <p>즉석에서 뚝딱 먹을 수 있는</p>
+                             <p>간편한 추억의 국물 떡볶이 !!</p>
+                         </div>
+                      </div> 
+                     
+                       <div class="item">
+                         <div class="rcp-comment" >
+                            <div class="col-sm-6">
+                              <p class="rcp-left-condiment">떡볶이</p>
+                              <p class="rcp-left-condiment">떡볶이</p>
+                              <p class="rcp-left-condiment">떡볶이</p>
+                            </div>
+                           
+                            <div class="col-sm-6">
+                              <p class="rcp-right-condiment">간장</p>
+                              <p class="rcp-right-condiment">간장</p>
+                              <p class="rcp-right-condiment">간장</p>
+                            </div>
+                            
+                         </div>
+                     </div> 
+                   </div>
+                   <!--  레시피 내용 끝  --> 
+                
+                </div>
+                           
+                    
+                <!-- 하단 버튼들 시작 (요리시간, 좋아요, 스크랩) -->
+                <div class="rcp-container">
+                    <div class="row">
+                              <div class="glyphicon glyphicon-time rcp-cookTime col-xs-4" align="center"> <b>10분</b></div> 
+                               <div class="glyphicon glyphicon-heart-empty rcp-cookTime col-xs-4" align="center"> <a href="#"><b>좋아요</b></a></div>
+                               <div class="glyphicon glyphicon-pushpin rcp-cookTime col-xs-4" align="center"> <a href="#"><b>스크랩</b></a></div>
+
+                       
+                    </div>
+                  </div>     
+                  <!--  버튼 끝  --> 
+                  </div>
+                 <!--  col-md-3 row div태그  -->
+                </div>
+                 <!-- col-md-3 div태그 끝  --> 
+                 
+                 
+                 
+                 
+                 
+            <!-- 요소 3  -->
+             <div class=" col-md-3 rcp-list-margin rcp-list-margin">
+                <div class="thumbnail row relative" >
+                   <!-- 배경 이미지 (음식)  -->
+                   <div class="rcp-profile-position">
+                        <img src="images/profile2.jpg" class="img-circle rcp-profile" >
+                   </div> 
+                        <img src="images/3.jpg" class="image1" class="rcp-relative">
+                      <!-- 프로필--> 
+                      <!--  프로필은 80px * 80px.  -->
+                      
+                         <!--  레시피 정보 Caption Start -->
+                        
+                  
+                      
+                       
+                         <div class="rcp-caption">
+                            <!--  첫번째 줄 (아이디, 평점) -->
+                            <h4 class="pull-right rcp-Grade" >평점</h4>
+                                 <h5 class="pluu-left rcp-relative rcp-profileName"> <span class="glyphicon glyphicon-star"></span>unknown </h5> 
+                                 <!-- 두번째 줄 (레시피명, 점수)  -->
+                                  <div class="rcp-relative rcp-bottom" >
+                                      <h4 class="pull-right rcp-recipeGrade">4.7점</h4>   
+                                         <h4 class="pull-left rcp-left_position">
+                                           <span><a href="#">연어인가 베이컨인가 아리송</a></span> 
+                                         </h4>  
+                                     
+                                  </div>
+                          </div> 
+                    <!--  레시피 정보 끝 -->
+                          
+                            
+                            
+                  <!--  슬라이드 start -->       
+               <div id="myCarousel3" class="carousel slide rcp-relative">
+                 <!--  왼쪽 버튼 시작  -->
+                     <a  href="#myCarousel3" role="button" data-slide="prev" class="rcp-left-slideButton">
+                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="false" ></span>
+
+                     </a>
+                     <!--  왼쪽 버튼 끝  -->
+                     
+                     <!--  오른쪽 버튼 시작  -->       
+                      <a href="#myCarousel3" role="button" data-slide="next"  class="rcp-right-slideButton">
+                         <span class="glyphicon glyphicon-chevron-right" aria-hidden="false" ></span>
+
+                      </a>
+                    <!--  오른쪽 버튼 끝   -->  
+                     
+                    <!--  레시피 내용 시작  -->
+                 <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                          <div class="rcp-comment">
+                              <p> 오늘 아침에 만들었다 ..</p>
+                             <p>내가 만들었는데 참 비주얼이 ...</p>
+                             <p>퀴즈 !! 재료가 연어인가 베이컨인가 !!</p>
+                          </div>
+                      </div>
+                     
+                     <div class="item">
+                         <div class="rcp-comment">
+                             <p>어린시절의 추억을 먹다 !!</p>
+                             <p>즉석에서 뚝딱 먹을 수 있는</p>
+                             <p>간편한 추억의 국물 떡볶이 !!</p>
+                         </div>
+                      </div> 
+                     
+                       <div class="item">
+                         <div class="rcp-comment" >
+                            <div class="col-sm-6">
+                              <p class="rcp-left-condiment">떡볶이</p>
+                              <p class="rcp-left-condiment">떡볶이</p>
+                              <p class="rcp-left-condiment">떡볶이</p>
+                            </div>
+                           
+                            <div class="col-sm-6">
+                              <p class="rcp-right-condiment">간장</p>
+                              <p class="rcp-right-condiment">간장</p>
+                              <p class="rcp-right-condiment">간장</p>
+                            </div>
+                            
+                         </div>
+                     </div> 
+                   </div>
+                   <!--  레시피 내용 끝  --> 
+                
+                </div>
+                           
+                    
+                <!-- 하단 버튼들 시작 (요리시간, 좋아요, 스크랩) -->
+                <div class="rcp-container">
+                    <div class="row">
+                              <div class="glyphicon glyphicon-time rcp-cookTime col-xs-4" align="center"> <b>10분</b></div> 
+                               <div class="glyphicon glyphicon-heart-empty rcp-cookTime col-xs-4" align="center"> <a href="#"><b>좋아요</b></a></div>
+                               <div class="glyphicon glyphicon-pushpin rcp-cookTime col-xs-4" align="center"> <a href="#"><b>스크랩</b></a></div>
+
+                       
+                    </div>
+                  </div>     
+                  <!--  버튼 끝  --> 
+                  </div>
+                 <!--  col-md-3 row div태그  -->
+                </div>
+                 <!-- col-md-3 div태그 끝  --> 
+                 
+                 
+                 
+                 
+                 
+              <!-- 요소 4  -->
+             <div class=" col-md-3 rcp-list-margin rcp-list-margin">
+                <div class="thumbnail row relative" >
+                   <!-- 배경 이미지 (음식)  -->
+                   <div class="rcp-profile-position">
+                        <img src="images/profile3.jpg" class="img-circle rcp-profile" >
+                   </div> 
+                        <img src="images/4.jpg" class="image1" class="rcp-relative">
+                      <!-- 프로필--> 
+                      <!--  프로필은 80px * 80px.  -->
+                      
+                         <!--  레시피 정보 Caption Start -->
+                        
+                  
+                      
+                       
+                         <div class="rcp-caption">
+                            <!--  첫번째 줄 (아이디, 평점) -->
+                            <h4 class="pull-right rcp-Grade" >평점</h4>
+                                 <h5 class="pluu-left rcp-relative rcp-profileName"> <span class="glyphicon glyphicon-star"></span>갓혜교님</h5> 
+                                 <!-- 두번째 줄 (레시피명, 점수)  -->
+                                  <div class="rcp-relative rcp-bottom" >
+                                      <h4 class="pull-right rcp-recipeGrade">4.7점</h4>   
+                                         <h4 class="pull-left rcp-left_position">
+                                           <span><a href="#">하루아침 거뜬 빵</a></span> 
+                                         </h4>  
+                                     
+                                  </div>
+                          </div> 
+                    <!--  레시피 정보 끝 -->
+                          
+                            
+                            
+                  <!--  슬라이드 start -->       
+               <div id="myCarousel4" class="carousel slide rcp-relative">
+                 <!--  왼쪽 버튼 시작  -->
+                     <a  href="#myCarousel4" role="button" data-slide="prev" class="rcp-left-slideButton">
+                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="false" ></span>
+
+                     </a>
+                     <!--  왼쪽 버튼 끝  -->
+                     
+                     <!--  오른쪽 버튼 시작  -->       
+                      <a href="#myCarousel4" role="button" data-slide="next"  class="rcp-right-slideButton">
+                         <span class="glyphicon glyphicon-chevron-right" aria-hidden="false" ></span>
+
+                      </a>
+                    <!--  오른쪽 버튼 끝   -->  
+                     
+                    <!--  레시피 내용 시작  -->
+                 <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                          <div class="rcp-comment">
+                             <p>갓혜교님이 드신 빵이시다 !! </p>
+                             <p>내가 손수 너희들에게 정보를 알려주마</p>
+                             <p>이 것만 있으면 아침 한접시 뚝딱 ~</p>
+                          </div>
+                      </div>
+                     
+                     <div class="item">
+                         <div class="rcp-comment">
+                             <p>어린시절의 추억을 먹다 !!</p>
+                             <p>즉석에서 뚝딱 먹을 수 있는</p>
+                             <p>간편한 추억의 국물 떡볶이 !!</p>
+                         </div>
+                      </div> 
+                     
+                       <div class="item">
+                         <div class="rcp-comment" >
+                            <div class="col-sm-6">
+                              <p class="rcp-left-condiment">떡볶이</p>
+                              <p class="rcp-left-condiment">떡볶이</p>
+                              <p class="rcp-left-condiment">떡볶이</p>
+                            </div>
+                           
+                            <div class="col-sm-6">
+                              <p class="rcp-right-condiment">간장</p>
+                              <p class="rcp-right-condiment">간장</p>
+                              <p class="rcp-right-condiment">간장</p>
+                            </div>
+                            
+                         </div>
+                     </div> 
+                   </div>
+                   <!--  레시피 내용 끝  --> 
+                
+                </div>
+                           
+                    
+                <!-- 하단 버튼들 시작 (요리시간, 좋아요, 스크랩) -->
+                <div class="rcp-container">
+                    <div class="row">
+                              <div class="glyphicon glyphicon-time rcp-cookTime col-xs-4" align="center"> <b>10분</b></div> 
+                               <div class="glyphicon glyphicon-heart-empty rcp-cookTime col-xs-4" align="center"> <a href="#"><b>좋아요</b></a></div>
+                               <div class="glyphicon glyphicon-pushpin rcp-cookTime col-xs-4" align="center"> <a href="#"><b>스크랩</b></a></div>
+
+                       
+                    </div>
+                  </div>     
+                  <!--  버튼 끝  --> 
+                  </div>
+                 <!--  col-md-3 row div태그  -->
+                </div>
+                 <!-- col-md-3 div태그 끝  --> 
+                 
+                                                   
+
+
+
+
+
+                
+             </div>
+              
+          </div>
+          <div class="col-md-1"></div>
+       </div>
+  
+</form>
+
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/handlebars/dist/handlebars.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/app-context.js"></script>
+<script src="js/mouseover.js"></script>
+
+
+</body>
+
+
+</html>
